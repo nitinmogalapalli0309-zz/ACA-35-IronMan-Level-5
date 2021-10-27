@@ -120,6 +120,8 @@ function draw(){
     stoneGroup.setLifetimeEach(-1);
     diamondGroup.setVelocityYEach(0);
     diamondGroup.setLifetimeEach(-1);
+    spikeGroup.setVelocityYEach(0);
+    spikeGroup.setLifetimeEach(-1);
     textSize(50);
     fill("red");
     text("The End",370,300);
